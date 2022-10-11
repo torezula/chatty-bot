@@ -5,10 +5,10 @@ class Main {
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
+        int k = scanner.nextInt();
 
-        int tens = (n % 100 - n % 10) / 10;
+        int nuts = k / n;
 
-
-        System.out.println(tens);
+        System.out.println(nuts);
     }
 }

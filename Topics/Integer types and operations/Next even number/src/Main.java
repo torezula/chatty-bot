@@ -4,11 +4,10 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int n = scanner.nextInt();
+        int natNum = scanner.nextInt();
 
-        int tens = (n % 100 - n % 10) / 10;
+        int nextEven = natNum + 2 - natNum % 2;
 
-
-        System.out.println(tens);
+        System.out.println(nextEven);
     }
 }
